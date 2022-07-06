@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] CharacterController controller;
 
     [SerializeField] float speed = 12f;
+    [SerializeField] float normalSpeed = 12f;
+    [SerializeField] float boostSpeed = 80f;
     [SerializeField] float gravity = -9.81f;
     [SerializeField] float jumpHeight = 3f;
 
@@ -28,6 +30,14 @@ public class PlayerMovement : MonoBehaviour
 
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
+
+
+        if(Input.GetKey(KeyCode.LeftShift) && isGrounded) {
+            Debug.Log("I pressed shift");
+            speed = boostSpeed;
+        } else {
+            speed = normalSpeed;
+        }
 
         Vector3 move = (transform.right * x) + (transform.forward * z);
 
