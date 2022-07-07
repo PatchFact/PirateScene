@@ -33,7 +33,6 @@ public class PlayerMovement : MonoBehaviour
 
 
         if(Input.GetKey(KeyCode.LeftShift) && isGrounded) {
-            Debug.Log("I pressed shift");
             speed = boostSpeed;
         } else {
             speed = normalSpeed;
