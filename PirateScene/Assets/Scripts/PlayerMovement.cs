@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
 
         if(Input.GetKey(KeyCode.LeftShift) && isGrounded) {
             speed = boostSpeed;
-        } else {
+        } else if (isGrounded) {
             speed = normalSpeed;
         }
 
