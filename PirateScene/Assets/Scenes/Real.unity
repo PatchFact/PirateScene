@@ -12384,6 +12384,7 @@ GameObject:
   - component: {fileID: 918016572}
   - component: {fileID: 918016571}
   - component: {fileID: 918016574}
+  - component: {fileID: 918016575}
   m_Layer: 0
   m_Name: First Person Player
   m_TagString: Untagged
@@ -12460,7 +12461,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 918016570}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9aed50b80e6c084cb51091cf136e22b, type: 3}
+  m_Script: {fileID: 11500000, guid: b31fe3048ec06384aa88e8a4bc019898, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &918016575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918016570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a274e4a64054d5a44ac4b8e7f3990359, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &927088766
@@ -34279,7 +34292,7 @@ GameObject:
   - component: {fileID: 2123395129}
   m_Layer: 7
   m_Name: Water Check
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
