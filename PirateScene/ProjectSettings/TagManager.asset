@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - NPC
   - Tavern
+  - DancingCrab
+  - Water
   layers:
   - Default
   - TransparentFX
