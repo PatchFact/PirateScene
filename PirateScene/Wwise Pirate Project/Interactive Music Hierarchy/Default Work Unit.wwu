@@ -43,11 +43,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Pirate idea" ID="{E68C7713-EE8F-4D98-A5BE-C5A79124A813}">
+												<AudioFileSource Name="Pirate Full MX V2" ID="{B39D7023-A38E-47F7-B365-554B916BED6B}">
 													<Language>SFX</Language>
-													<AudioFile>Pirate idea.wav</AudioFile>
+													<AudioFile>Pirate Full MX V2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="782975130"/>
+														<MediaID ID="382805616"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -68,13 +68,13 @@
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="Pirate idea" ID="{0AE10E7B-1304-4B43-AFA3-4F751DFEEF8D}">
+																				<MusicClip Name="Pirate Full MX V2" ID="{C133D749-D511-4A71-9DDD-75DFE8859411}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="38400.0208333333"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="Pirate idea" ID="{E68C7713-EE8F-4D98-A5BE-C5A79124A813}"/>
+																					<AudioSourceRef Name="Pirate Full MX V2" ID="{B39D7023-A38E-47F7-B365-554B916BED6B}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -92,6 +92,15 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3828C3C-D19F-40CD-95EA-FA79A8A3AD31}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pirate Vocals V1" ID="{0AFF1066-5672-46C8-A802-473CAA2EF341}">
+													<Language>SFX</Language>
+													<AudioFile>Pirate Vocals V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="251079257"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{D360D4D3-E8F4-4CE5-A831-882C379E938E}">
 													<PropertyList>
@@ -105,7 +114,22 @@
 													<Reference>
 														<Local>
 															<MusicTrackSequence Name="" ID="{49C766C4-E77E-4C06-9EFF-5494252553BE}">
-																<ObjectLists/>
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Pirate Vocals V1" ID="{ACF30EB7-72C3-4CE1-839E-B43C45FDDEBC}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="38400.0208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Pirate Vocals V1" ID="{0AFF1066-5672-46C8-A802-473CAA2EF341}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
 															</MusicTrackSequence>
 														</Local>
 													</Reference>
@@ -118,6 +142,15 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3828C3C-D19F-40CD-95EA-FA79A8A3AD31}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pirate Crab V1" ID="{4A315651-712A-4D9B-92BA-6C7E63B66D76}">
+													<Language>SFX</Language>
+													<AudioFile>Pirate Crab V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="605514229"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{4F975118-B06E-471F-BB14-BAEFCE17913B}">
 													<PropertyList>
@@ -131,7 +164,22 @@
 													<Reference>
 														<Local>
 															<MusicTrackSequence Name="" ID="{63E8B1D1-CDA0-45A9-BD01-3B40EA49EB3A}">
-																<ObjectLists/>
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Pirate Crab V1" ID="{16BE7AB7-B838-4286-AA5A-1BC36006AEAA}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="38400.0208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Pirate Crab V1" ID="{4A315651-712A-4D9B-92BA-6C7E63B66D76}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
 															</MusicTrackSequence>
 														</Local>
 													</Reference>
