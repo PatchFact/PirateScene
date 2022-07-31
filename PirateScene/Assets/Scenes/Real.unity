@@ -888,6 +888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inTavern: 0
+  underwater: 0
 --- !u!1001 &62352534
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12574,6 +12575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inTavern: 0
+  underwater: 0
 --- !u!1 &927088766
 GameObject:
   m_ObjectHideFlags: 0
@@ -34468,7 +34470,7 @@ GameObject:
   - component: {fileID: 2123395129}
   m_Layer: 7
   m_Name: Water Check
-  m_TagString: Untagged
+  m_TagString: water_check
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

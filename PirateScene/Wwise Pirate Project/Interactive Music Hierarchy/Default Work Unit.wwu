@@ -16,34 +16,6 @@
 						<MusicSegment Name="Main Loop" ID="{3E002654-6649-4B42-9E50-2E4F52E303DF}" ShortID="624328844">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="42694.6922179796"/>
-								<Property Name="Lowpass" Type="int16">
-									<RTPCList>
-										<RTPC Name="" ID="{5916EEC3-94E9-4FDD-871E-304BB0630FED}" ShortID="211739530">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="water_LPF" ID="{A73FCFC8-27B5-4572-BA6E-BA0D8EBDFF69}" WorkUnitID="{AE80F3C8-7136-4337-BDE6-BE1563796D8C}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{0D667148-6946-48BD-9711-A8789304D5AF}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="65537"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>0</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -54,7 +26,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="Pirate idea" ID="{77A41323-3B52-418D-B8F1-11B2E6695F10}" ShortID="651570711">
+								<MusicTrack Name="Instruments Layer" ID="{77A41323-3B52-418D-B8F1-11B2E6695F10}" ShortID="651570711">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3828C3C-D19F-40CD-95EA-FA79A8A3AD31}"/>
@@ -93,6 +65,27 @@
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Pirate Full MX V2" ID="{B39D7023-A38E-47F7-B365-554B916BED6B}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{5818067C-C4B8-4543-BA63-B8C8A4E988CE}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>38.4000208333333</XPos>
+																								<YPos>-0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -372,6 +365,27 @@
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Pirate Crab V1" ID="{4A315651-712A-4D9B-92BA-6C7E63B66D76}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{48CA90BB-E1FF-4CEA-B395-781E061114B1}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>-0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>38.4000208333333</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
 																		</MusicClip>
 																	</Local>
 																</Reference>

@@ -37,7 +37,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="water_LPF" ID="{A73FCFC8-27B5-4572-BA6E-BA0D8EBDFF69}"/>
-							<Value>50</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="tavern_Distance" ID="{86BE7EE0-269D-461F-A724-9612F67E4608}"/>
@@ -57,7 +57,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="crab_Distance" ID="{E441CA59-97A5-4780-8C68-AD88008427DD}"/>
-							<Value>1.09570716914538E-317</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
