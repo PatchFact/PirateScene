@@ -6,10 +6,13 @@ public class GameObjectDistance : MonoBehaviour
 {
 
     public bool inTavern = false;
+    public bool underwater = false;
 
     void Start()
     {
-        AkSoundEngine.SetRTPCValue("tavern_LPF", 1f, GameObject.Find("WwiseGlobal")); //turn on in beginning  
+        //turn on both filters at start of scene
+        AkSoundEngine.SetRTPCValue("tavern_LPF", 1f, GameObject.Find("WwiseGlobal"));   
+        AkSoundEngine.SetRTPCValue("water_LPF", 1f, GameObject.Find("WwiseGlobal"));  
     }
 
     void Update()
@@ -49,7 +52,12 @@ public class GameObjectDistance : MonoBehaviour
             inTavern = true;
             AkSoundEngine.SetRTPCValue("tavern_LPF", 0f, GameObject.Find("WwiseGlobal")); //turn LPF off
         }
-        
+
+        if (other.tag == "water_check")
+        {
+            underwater = true;
+            AkSoundEngine.SetRTPCValue("water_LPF", 0f, GameObject.Find("WwiseGlobal")); //turn LPF off
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -58,6 +66,12 @@ public class GameObjectDistance : MonoBehaviour
         {
             inTavern = false;
             AkSoundEngine.SetRTPCValue("tavern_LPF", 1f, GameObject.Find("WwiseGlobal")); //turn LPF on
+        }
+
+        if (other.tag == "water_check")
+        {
+            underwater = false;
+            AkSoundEngine.SetRTPCValue("water_LPF", 1f, GameObject.Find("WwiseGlobal")); //turn LPF on
         }
       
     }
