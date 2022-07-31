@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1827701466">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3310041238">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3758105138" Language="SFX" Hash="1507328221">
+		<SoundBank Id="3758105138" Language="SFX" Hash="3979006765">
 			<ObjectPath>\SoundBanks\Default Work Unit\pirate_MX_banks</ObjectPath>
 			<ShortName>pirate_MX_banks</ShortName>
 			<Path>pirate_MX_banks.bnk</Path>
@@ -41,7 +41,6 @@
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="2385089216" Name="tavern_LPF" ObjectPath="\Game Parameters\Default Work Unit\tavern_LPF"/>
-				<GameParameter Id="2879737297" Name="water_LPF" ObjectPath="\Game Parameters\Default Work Unit\water_LPF"/>
 				<GameParameter Id="3179159051" Name="tavern_Distance" ObjectPath="\Game Parameters\Default Work Unit\tavern_Distance"/>
 				<GameParameter Id="3767945259" Name="crab_Distance" ObjectPath="\Game Parameters\Default Work Unit\crab_Distance"/>
 			</GameParameters>

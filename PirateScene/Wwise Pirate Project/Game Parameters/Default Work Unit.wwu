@@ -21,7 +21,12 @@
 						<Property Name="Max" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="water_LPF" ID="{A73FCFC8-27B5-4572-BA6E-BA0D8EBDFF69}"/>
+				<GameParameter Name="water_LPF" ID="{A73FCFC8-27B5-4572-BA6E-BA0D8EBDFF69}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
