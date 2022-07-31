@@ -11,7 +11,7 @@
   <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise 2021.1.5.7749/Wwise.app</WwiseInstallationPathMac>
   <WwiseInstallationPathWindows />
   <WwiseProjectPath>../Wwise Pirate Project/PirateProject.wproj</WwiseProjectPath>
-  <UseWaapi>false</UseWaapi>
+  <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>
 </WwiseSettings>

@@ -9,6 +9,7 @@ TagManager:
   - Tavern
   - DancingCrab
   - Water
+  - tavern_check
   layers:
   - Default
   - TransparentFX

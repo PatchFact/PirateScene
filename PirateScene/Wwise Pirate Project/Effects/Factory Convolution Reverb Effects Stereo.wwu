@@ -13,7 +13,11 @@ IR Pre-delay: 4ms </Comment>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="12"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="1.01459237938597"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-79"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-79</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLevel" Type="Real32" Value="-21"/>
 								<Property Name="PreDelay" Type="Real32" Value="12"/>
 							</PropertyList>
@@ -101,7 +105,11 @@ IR Pre-delay: 4ms
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="19"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="0.311367598684207"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-58"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-58</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-20"/>
 								<Property Name="IRStretch" Type="Real32" Value="97"/>
@@ -287,7 +295,11 @@ IR Pre-delay: 8ms
 							<PropertyList>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="0.586774328399123"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-48"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-48</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLevel" Type="Real32" Value="-27"/>
 								<Property Name="IRStretch" Type="Real32" Value="88"/>
 								<Property Name="PreDelay" Type="Real32" Value="7"/>
@@ -383,7 +395,11 @@ IR Pre-delay: 6ms
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="26"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="1.32175493421053"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-51"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-51</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLevel" Type="Real32" Value="-28"/>
 								<Property Name="PreDelay" Type="Real32" Value="19"/>
 								<Property Name="StereoWidth" Type="Real32" Value="140"/>
@@ -477,7 +493,11 @@ IR Pre-delay: 8ms
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="11"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="1.49983182565789"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-77"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-77</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLevel" Type="Real32" Value="-23"/>
 								<Property Name="IRStretch" Type="Real32" Value="96"/>
 								<Property Name="PreDelay" Type="Real32" Value="11"/>
@@ -565,7 +585,11 @@ IR Pre-delay: 8ms
 							<PropertyList>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="1.15055592105263"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-78"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-78</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLevel" Type="Real32" Value="-25"/>
 								<Property Name="IRStretch" Type="Real32" Value="70"/>
 								<Property Name="PreDelay" Type="Real32" Value="5"/>
@@ -741,7 +765,11 @@ IR Pre-delay: 7ms
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="12"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="3.24565285773026"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-68"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-68</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-25"/>
 								<Property Name="IRStretch" Type="Real32" Value="50"/>
@@ -916,7 +944,11 @@ IR Pre-delay: 8ms
 							<PropertyList>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="5"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="1.18822293037281"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-76"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-76</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLRMix" Type="Real32" Value="8"/>
 								<Property Name="IRLevel" Type="Real32" Value="-28"/>
 								<Property Name="PreDelay" Type="Real32" Value="8"/>
@@ -1087,7 +1119,6 @@ IR Pre-delay: 8ms
 IR Pre-delay: 6ms </Comment>
 							<PropertyList>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="0.9055"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-75"/>
 								<Property Name="IRLRMix" Type="Real32" Value="5"/>
 								<Property Name="IRLevel" Type="Real32" Value="-27"/>
 								<Property Name="PreDelay" Type="Real32" Value="6"/>
@@ -1174,7 +1205,11 @@ IR Pre-delay: 0ms
 </Comment>
 							<PropertyList>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="0.331080523574561"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-47"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-47</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLevel" Type="Real32" Value="-12"/>
 							</PropertyList>
 							<ChildrenList>
@@ -1259,7 +1294,11 @@ IR Pre-delay: 5ms </Comment>
 							<PropertyList>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="9"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="1.32152508223684"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-83"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-83</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLevel" Type="Real32" Value="-28"/>
 								<Property Name="PreDelay" Type="Real32" Value="5"/>
 							</PropertyList>
@@ -1346,7 +1385,11 @@ IR Pre-delay: 4ms
 							<PropertyList>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="8"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="0.762532894736842"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-77"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-77</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLRMix" Type="Real32" Value="4"/>
 								<Property Name="IRLevel" Type="Real32" Value="-13"/>
 								<Property Name="PreDelay" Type="Real32" Value="4"/>
@@ -1438,7 +1481,11 @@ IR Pre-delay: 4ms
 							<PropertyList>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="3.92034854714912"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-76"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-76</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-20"/>
 								<Property Name="IRStretch" Type="Real32" Value="78"/>
@@ -1532,7 +1579,11 @@ IR Pre-delay: 7ms
 							<PropertyList>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="3.25343619791666"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-72"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-72</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-28"/>
 								<Property Name="IRStretch" Type="Real32" Value="56"/>
@@ -1621,7 +1672,11 @@ IR Pre-delay: 7ms
 							<PropertyList>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="2.99658597176535"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-65"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-65</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-32"/>
 								<Property Name="IRStretch" Type="Real32" Value="97"/>
@@ -1710,7 +1765,11 @@ IR Pre-delay: 0ms
 							<PropertyList>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="1.26684806743421"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-76"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-76</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-30"/>
 								<Property Name="IRStretch" Type="Real32" Value="153"/>
@@ -1804,7 +1863,11 @@ IR Pre-delay: 4ms
 							<PropertyList>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="6"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="4.3722619243421"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-61"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-61</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLevel" Type="Real32" Value="-22"/>
 								<Property Name="PreDelay" Type="Real32" Value="4"/>
 							</PropertyList>
@@ -1890,7 +1953,11 @@ IR Pre-delay: 0ms </Comment>
 							<PropertyList>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="7"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="1.02901069078947"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-74"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-74</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLRMix" Type="Real32" Value="7"/>
 								<Property Name="IRLevel" Type="Real32" Value="-40"/>
 							</PropertyList>
@@ -1976,7 +2043,11 @@ IR Pre-delay: 0ms
 </Comment>
 							<PropertyList>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="1.48404173519737"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-82"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-82</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLRMix" Type="Real32" Value="32"/>
 								<Property Name="IRLevel" Type="Real32" Value="-25"/>
 							</PropertyList>
@@ -2063,7 +2134,11 @@ IR Pre-delay: 7ms
 							<PropertyList>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="10"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="3.06663603344298"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-60"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-60</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLevel" Type="Real32" Value="-30"/>
 								<Property Name="PreDelay" Type="Real32" Value="7"/>
 							</PropertyList>
@@ -2155,7 +2230,11 @@ IR Pre-delay: 20ms
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="5"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="4.04647541966427"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-62"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-62</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-45"/>
 								<Property Name="IRStretch" Type="Real32" Value="119"/>
@@ -2244,7 +2323,11 @@ IR Pre-delay: 20ms </Comment>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="8"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="4.04647541966427"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-67"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-67</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-45"/>
 								<Property Name="PreDelay" Type="Real32" Value="49"/>
@@ -2330,7 +2413,11 @@ IR Pre-delay: 20ms </Comment>
 IR Pre-delay: 20ms </Comment>
 							<PropertyList>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="4.04647541966427"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-63"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-63</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-45"/>
 								<Property Name="IRStretch" Type="Real32" Value="151"/>
@@ -2418,7 +2505,11 @@ IR Pre-delay: 20ms </Comment>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="5"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="4.04647541966427"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-62"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-62</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-45"/>
 								<Property Name="IRStretch" Type="Real32" Value="107"/>
@@ -2507,7 +2598,11 @@ IR Pre-delay: 5ms </Comment>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="43"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="3.46235964912281"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-66"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-66</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-32"/>
 								<Property Name="IRStretch" Type="Real32" Value="68"/>
@@ -2596,7 +2691,11 @@ IR Pre-delay: 5ms </Comment>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="47"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="3.47008813048246"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-65"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-65</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-38"/>
 								<Property Name="IRStretch" Type="Real32" Value="123"/>
@@ -2684,7 +2783,11 @@ IR Pre-delay: 20ms </Comment>
 							<PropertyList>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="6"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="4.04595979845626"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-71"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-71</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLRMix" Type="Real32" Value="5"/>
 								<Property Name="IRLevel" Type="Real32" Value="-42"/>
 								<Property Name="PreDelay" Type="Real32" Value="20"/>
@@ -2771,7 +2874,11 @@ IR Pre-delay: 5ms </Comment>
 							<PropertyList>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="6"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="1.88601457975987"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-70"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-70</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLevel" Type="Real32" Value="-38"/>
 								<Property Name="PreDelay" Type="Real32" Value="5"/>
 							</PropertyList>
@@ -2862,7 +2969,11 @@ IR Pre-delay: 6ms</Comment>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="27"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="1.88021217105263"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-71"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-71</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLevel" Type="Real32" Value="-23"/>
 								<Property Name="PreDelay" Type="Real32" Value="24"/>
 							</PropertyList>
@@ -2948,7 +3059,11 @@ IR Pre-delay: 6ms</Comment>
 							<PropertyList>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="1.90064925986842"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-81"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-81</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-25"/>
 								<Property Name="IRStretch" Type="Real32" Value="157"/>
@@ -3037,7 +3152,11 @@ IR Pre-delay: 6ms</Comment>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="24"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="1.53278166118421"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-81"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-81</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-25"/>
 								<Property Name="IRStretch" Type="Real32" Value="144"/>
@@ -3136,7 +3255,11 @@ IR Pre-delay: 6ms</Comment>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="13"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="2.08969233141447"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-72"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-72</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-26"/>
 								<Property Name="IRStretch" Type="Real32" Value="93"/>
@@ -3240,7 +3363,11 @@ IR Pre-delay: 10ms </Comment>
 							<PropertyList>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="1.77250822368421"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-70"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-70</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-38"/>
 								<Property Name="IRStretch" Type="Real32" Value="150"/>
@@ -3338,7 +3465,11 @@ IR Pre-delay: 6ms</Comment>
 							<PropertyList>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="5"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="2.00283470394737"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-77"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-77</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLevel" Type="Real32" Value="-24"/>
 								<Property Name="PreDelay" Type="Real32" Value="6"/>
 							</PropertyList>
@@ -3425,7 +3556,11 @@ IR Pre-delay: 5ms
 							<PropertyList>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="9"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="4.20190210389254"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-60"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-60</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLRMix" Type="Real32" Value="-4"/>
 								<Property Name="IRLevel" Type="Real32" Value="-21"/>
 								<Property Name="PreDelay" Type="Real32" Value="5"/>
@@ -3513,7 +3648,11 @@ IR Pre-delay: 10ms
 							<PropertyList>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="5"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="2.01568770559211"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-76"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-76</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLevel" Type="Real32" Value="-43"/>
 								<Property Name="PreDelay" Type="Real32" Value="10"/>
 							</PropertyList>
@@ -3604,7 +3743,11 @@ IR Pre-delay: 2ms </Comment>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="2"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="0.837511307565789"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-70"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-70</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-23"/>
 								<Property Name="PreDelay" Type="Real32" Value="6"/>
@@ -3693,7 +3836,11 @@ IR Pre-delay: 2ms </Comment>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="16"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="0.765116262335526"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-82"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-82</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-30"/>
 								<Property Name="IRStretch" Type="Real32" Value="102"/>
@@ -3782,7 +3929,11 @@ IR Pre-delay: 8ms </Comment>
 							<PropertyList>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="0.830041666666667"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-65"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-65</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-32"/>
 								<Property Name="PreDelay" Type="Real32" Value="11"/>
@@ -3872,7 +4023,11 @@ IR Pre-delay: 9ms
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="18"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="0.943644634046053"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-73"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-73</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-26"/>
 								<Property Name="PreDelay" Type="Real32" Value="8"/>
@@ -3967,7 +4122,11 @@ IR Pre-delay: 8ms
 							<PropertyList>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="0.199319216008772"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-49"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-49</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-31"/>
 								<Property Name="IRStretch" Type="Real32" Value="55"/>
@@ -4063,7 +4222,11 @@ IR Pre-delay: 3ms </Comment>
 							<PropertyList>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="0.965764391447369"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-76"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-76</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-23"/>
 								<Property Name="IRStretch" Type="Real32" Value="79"/>
@@ -4157,7 +4320,11 @@ IR Pre-delay: 3ms </Comment>
 							<PropertyList>
 								<Property Name="CenterLevel" Type="Real32" Value="-12"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="0.723398231907895"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-62"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-62</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 								<Property Name="IRLevel" Type="Real32" Value="-20"/>
 								<Property Name="IRStretch" Type="Real32" Value="59"/>
@@ -4246,7 +4413,11 @@ IR Pre-delay: 2ms </Comment>
 							<PropertyList>
 								<Property Name="IRConvolutionSmooth" Type="Real32" Value="5"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="0.80912109375"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-83"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-83</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLevel" Type="Real32" Value="-25"/>
 								<Property Name="PreDelay" Type="Real32" Value="2"/>
 							</PropertyList>
@@ -4418,7 +4589,11 @@ IR Pre-delay: 3ms
 </Comment>
 							<PropertyList>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="1.02311821546053"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-82"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-82</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLRMix" Type="Real32" Value="-26"/>
 								<Property Name="IRLevel" Type="Real32" Value="-20"/>
 								<Property Name="PreDelay" Type="Real32" Value="3"/>
@@ -4505,7 +4680,11 @@ IR Pre-delay: 9ms
 </Comment>
 							<PropertyList>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="1.59218585526316"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32" Value="-88"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-88</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IRLevel" Type="Real32" Value="-25"/>
 								<Property Name="PreDelay" Type="Real32" Value="9"/>
 							</PropertyList>

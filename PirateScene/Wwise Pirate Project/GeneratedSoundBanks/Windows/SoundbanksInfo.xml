@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/nissanzangi/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Berklee/Video Game Scoring/Portfolio/Final Project (Pirate)/Unity/Pirate Scene/PirateScene/Wwise Pirate Project/</ProjectRoot>
+		<SourceFilesRoot>/Users/nissanzangi/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Berklee/Video Game Scoring/Portfolio/Final Project (Pirate)/Unity/Pirate Scene/PirateScene/Wwise Pirate Project/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/nissanzangi/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Berklee/Video Game Scoring/Portfolio/Final Project (Pirate)/Unity/Pirate Scene/PirateScene/Wwise Pirate Project/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/nissanzangi/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Berklee/Video Game Scoring/Portfolio/Final Project (Pirate)/Unity/Pirate Scene/PirateScene/Wwise Pirate Project/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1827701466">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3758105138" Language="SFX" Hash="1507328221">
+			<ObjectPath>\SoundBanks\Default Work Unit\pirate_MX_banks</ObjectPath>
+			<ShortName>pirate_MX_banks</ShortName>
+			<Path>pirate_MX_banks.bnk</Path>
+			<IncludedEvents>
+				<Event Id="441724113" Name="start_MX" ObjectPath="\Events\Default Work Unit\start_MX" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="251079257" Language="SFX">
+							<ShortName>Pirate Vocals V1.wav</ShortName>
+							<Path>SFX/Pirate Vocals V1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="382805616" Language="SFX">
+							<ShortName>Pirate Full MX V2.wav</ShortName>
+							<Path>SFX/Pirate Full MX V2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="605514229" Language="SFX">
+							<ShortName>Pirate Crab V1.wav</ShortName>
+							<Path>SFX/Pirate Crab V1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="452547817" Name="stop_All" ObjectPath="\Events\Default Work Unit\stop_All" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2385089216" Name="tavern_LPF" ObjectPath="\Game Parameters\Default Work Unit\tavern_LPF"/>
+				<GameParameter Id="2879737297" Name="water_LPF" ObjectPath="\Game Parameters\Default Work Unit\water_LPF"/>
+				<GameParameter Id="3179159051" Name="tavern_Distance" ObjectPath="\Game Parameters\Default Work Unit\tavern_Distance"/>
+				<GameParameter Id="3767945259" Name="crab_Distance" ObjectPath="\Game Parameters\Default Work Unit\crab_Distance"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AE80F3C8-7136-4337-BDE6-BE1563796D8C}" SchemaVersion="103">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{AE80F3C8-7136-4337-BDE6-BE1563796D8C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AE80F3C8-7136-4337-BDE6-BE1563796D8C}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="crab_Distance" ID="{E441CA59-97A5-4780-8C68-AD88008427DD}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="Max" Type="Real64" Value="200"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="tavern_Distance" ID="{86BE7EE0-269D-461F-A724-9612F67E4608}">
+					<PropertyList>
+						<Property Name="Max" Type="Real64" Value="3000"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="tavern_LPF" ID="{39D854C8-1980-4F34-95C4-AA5087811D2B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="water_LPF" ID="{A73FCFC8-27B5-4572-BA6E-BA0D8EBDFF69}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
