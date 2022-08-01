@@ -11,6 +11,7 @@ TagManager:
   - Water
   - tavern_check
   - water_check
+  - cave_check
   layers:
   - Default
   - TransparentFX
