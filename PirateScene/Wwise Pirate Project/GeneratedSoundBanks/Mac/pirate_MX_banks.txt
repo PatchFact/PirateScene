@@ -8,7 +8,9 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3767945259	crab_Distance			\Default Work Unit\crab_Distance	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	251079257	Tavern Layer	Y:\Desktop\Berklee\Video Game Scoring\Portfolio\Final Project (Pirate)\Unity\Pirate Scene\PirateScene\Wwise Pirate Project\.cache\Mac\SFX\Pirate Vocals V1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Pirate Scene\Main Loop\Tavern Layer		7372868
-	382805616	Instruments Layer	Y:\Desktop\Berklee\Video Game Scoring\Portfolio\Final Project (Pirate)\Unity\Pirate Scene\PirateScene\Wwise Pirate Project\.cache\Mac\SFX\Pirate Full MX V2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Pirate Scene\Main Loop\Instruments Layer		7372868
-	605514229	Crab Layer	Y:\Desktop\Berklee\Video Game Scoring\Portfolio\Final Project (Pirate)\Unity\Pirate Scene\PirateScene\Wwise Pirate Project\.cache\Mac\SFX\Pirate Crab V1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Pirate Scene\Main Loop\Crab Layer		7372868
+	558488839	Instruments Layer	Y:\Desktop\Berklee\Video Game Scoring\Portfolio\Final Project (Pirate)\Unity\Pirate Scene\PirateScene\Wwise Pirate Project\.cache\Mac\SFX\Pirate FINAL Instrumental_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Pirate Scene\Music Loop Verse 1\Instruments Layer		7372864
+	605514229	Crab Layer	Y:\Desktop\Berklee\Video Game Scoring\Portfolio\Final Project (Pirate)\Unity\Pirate Scene\PirateScene\Wwise Pirate Project\.cache\Mac\SFX\Pirate Crab V1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Pirate Scene\Music Loop Verse 1\Crab Layer		7372868
+	786196367	Tavern  Layer 2	Y:\Desktop\Berklee\Video Game Scoring\Portfolio\Final Project (Pirate)\Unity\Pirate Scene\PirateScene\Wwise Pirate Project\.cache\Mac\SFX\Pirate FINAL Choir Verse 2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Pirate Scene\Music Loop Verse 2\Tavern  Layer 2		3686464
+	1004295158	Tavern Layer	Y:\Desktop\Berklee\Video Game Scoring\Portfolio\Final Project (Pirate)\Unity\Pirate Scene\PirateScene\Wwise Pirate Project\.cache\Mac\SFX\Pirate FINAL Choir Verse 1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Pirate Scene\Music Loop Verse 1\Tavern Layer		3686464
+	1023176675	Tavern Layer	Y:\Desktop\Berklee\Video Game Scoring\Portfolio\Final Project (Pirate)\Unity\Pirate Scene\PirateScene\Wwise Pirate Project\.cache\Mac\SFX\Pirate FINAL Choir Chorus_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Pirate Scene\Music Loop Verse 1\Tavern Layer		3686464
 

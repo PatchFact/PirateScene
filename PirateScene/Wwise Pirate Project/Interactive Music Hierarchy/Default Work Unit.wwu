@@ -13,7 +13,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="Main Loop" ID="{3E002654-6649-4B42-9E50-2E4F52E303DF}" ShortID="624328844">
+						<MusicSegment Name="Music Loop Verse 1" ID="{3E002654-6649-4B42-9E50-2E4F52E303DF}" ShortID="624328844">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="42694.6922179796"/>
 							</PropertyList>
@@ -26,212 +26,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="Instruments Layer" ID="{77A41323-3B52-418D-B8F1-11B2E6695F10}" ShortID="651570711">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3828C3C-D19F-40CD-95EA-FA79A8A3AD31}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Pirate Full MX V2" ID="{B39D7023-A38E-47F7-B365-554B916BED6B}">
-											<Language>SFX</Language>
-											<AudioFile>Pirate Full MX V2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="382805616"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{7B13C5E1-5175-4759-940E-01B470299279}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{26193CEE-01B7-461B-A31A-3099A289A80B}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="Pirate Full MX V2" ID="{C133D749-D511-4A71-9DDD-75DFE8859411}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="38400.0208333333"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="Pirate Full MX V2" ID="{B39D7023-A38E-47F7-B365-554B916BED6B}"/>
-																			<PropertyCurveList>
-																				<PropertyCurve PropertyName="Lowpass">
-																					<Curve Name="" ID="{5818067C-C4B8-4543-BA63-B8C8A4E988CE}">
-																						<PropertyList>
-																							<Property Name="Flags" Type="int32" Value="1"/>
-																						</PropertyList>
-																						<PointList>
-																							<Point>
-																								<XPos>0</XPos>
-																								<YPos>0</YPos>
-																								<Flags>5</Flags>
-																							</Point>
-																							<Point>
-																								<XPos>38.4000208333333</XPos>
-																								<YPos>-0</YPos>
-																								<Flags>37</Flags>
-																							</Point>
-																						</PointList>
-																					</Curve>
-																				</PropertyCurve>
-																			</PropertyCurveList>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="Tavern Layer" ID="{CDF66466-B65F-4546-B473-F3AC33A770DC}" ShortID="787947669">
-									<PropertyList>
-										<Property Name="Lowpass" Type="int16">
-											<RTPCList>
-												<RTPC Name="" ID="{E872D526-FEE0-4E30-BF69-82CFFEB6A6BC}" ShortID="468399766">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="tavern_LPF" ID="{39D854C8-1980-4F34-95C4-AA5087811D2B}" WorkUnitID="{AE80F3C8-7136-4337-BDE6-BE1563796D8C}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{75FEE640-A7A8-470F-90CB-CC64CC7BBCE6}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="65537"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-100</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>-36</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{E0A1B91F-8714-4792-B652-2EEDD323D9C5}" ShortID="287655712">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="tavern_Distance" ID="{86BE7EE0-269D-461F-A724-9612F67E4608}" WorkUnitID="{AE80F3C8-7136-4337-BDE6-BE1563796D8C}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{44FA5E26-1ABC-4A70-83D8-C1DBBE4642AE}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>0</YPos>
-																<Flags>5</Flags>
-																<SegmentShape>Exp2</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>2394.5621</XPos>
-																<YPos>-200</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>3000</XPos>
-																<YPos>-200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3828C3C-D19F-40CD-95EA-FA79A8A3AD31}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Pirate Vocals V1" ID="{0AFF1066-5672-46C8-A802-473CAA2EF341}">
-											<Language>SFX</Language>
-											<AudioFile>Pirate Vocals V1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="251079257"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{D360D4D3-E8F4-4CE5-A831-882C379E938E}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{49C766C4-E77E-4C06-9EFF-5494252553BE}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="Pirate Vocals V1" ID="{ACF30EB7-72C3-4CE1-839E-B43C45FDDEBC}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="38400.0208333333"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="Pirate Vocals V1" ID="{0AFF1066-5672-46C8-A802-473CAA2EF341}"/>
-																			<PropertyCurveList>
-																				<PropertyCurve PropertyName="Lowpass">
-																					<Curve Name="" ID="{96FC1342-A2C1-4E9D-B0CE-D004518E65EF}">
-																						<PropertyList>
-																							<Property Name="Flags" Type="int32" Value="1"/>
-																						</PropertyList>
-																						<PointList>
-																							<Point>
-																								<XPos>0</XPos>
-																								<YPos>100</YPos>
-																								<Flags>5</Flags>
-																							</Point>
-																							<Point>
-																								<XPos>38.4000208333333</XPos>
-																								<YPos>99.99996</YPos>
-																								<Flags>37</Flags>
-																							</Point>
-																						</PointList>
-																					</Curve>
-																				</PropertyCurve>
-																			</PropertyCurveList>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
 								<MusicTrack Name="Crab Layer" ID="{A649FBC8-96A2-4FC7-B06C-4B85A169FC41}" ShortID="775927342">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
@@ -374,11 +168,287 @@
 																						<PointList>
 																							<Point>
 																								<XPos>0</XPos>
-																								<YPos>-0</YPos>
+																								<YPos>0</YPos>
 																								<Flags>5</Flags>
 																							</Point>
 																							<Point>
 																								<XPos>38.4000208333333</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Instruments Layer" ID="{77A41323-3B52-418D-B8F1-11B2E6695F10}" ShortID="651570711">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2941CDA7-9CCB-4D83-A88A-5EB99BADA2D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3828C3C-D19F-40CD-95EA-FA79A8A3AD31}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pirate FINAL Instrumental" ID="{51F3B57A-5485-4BC2-A625-4520C8431CBD}">
+											<Language>SFX</Language>
+											<AudioFile>Pirate FINAL Instrumental.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="558488839"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7B13C5E1-5175-4759-940E-01B470299279}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{26193CEE-01B7-461B-A31A-3099A289A80B}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Pirate FINAL Instrumental" ID="{B18CDA9D-8F4E-4059-BFFD-48ED4D7053E4}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="38400"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Pirate FINAL Instrumental" ID="{51F3B57A-5485-4BC2-A625-4520C8431CBD}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Tavern Layer" ID="{CDF66466-B65F-4546-B473-F3AC33A770DC}" ShortID="787947669">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{E872D526-FEE0-4E30-BF69-82CFFEB6A6BC}" ShortID="468399766">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="tavern_LPF" ID="{39D854C8-1980-4F34-95C4-AA5087811D2B}" WorkUnitID="{AE80F3C8-7136-4337-BDE6-BE1563796D8C}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{75FEE640-A7A8-470F-90CB-CC64CC7BBCE6}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-100</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>-36</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{E0A1B91F-8714-4792-B652-2EEDD323D9C5}" ShortID="287655712">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="tavern_Distance" ID="{86BE7EE0-269D-461F-A724-9612F67E4608}" WorkUnitID="{AE80F3C8-7136-4337-BDE6-BE1563796D8C}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{44FA5E26-1ABC-4A70-83D8-C1DBBE4642AE}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>2874.3952</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>3000</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2941CDA7-9CCB-4D83-A88A-5EB99BADA2D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3828C3C-D19F-40CD-95EA-FA79A8A3AD31}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pirate FINAL Choir Verse 1" ID="{932768F7-557C-4682-B491-F608D41050E5}">
+											<Language>SFX</Language>
+											<AudioFile>Pirate FINAL Choir Verse 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1004295158"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Pirate FINAL Choir Chorus" ID="{4C19DE96-5D6F-480E-AF36-A523F14AF6B6}">
+											<Language>SFX</Language>
+											<AudioFile>Pirate FINAL Choir Chorus.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1023176675"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D360D4D3-E8F4-4CE5-A831-882C379E938E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{49C766C4-E77E-4C06-9EFF-5494252553BE}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Pirate FINAL Choir Verse 1" ID="{3A776409-C154-4608-8A76-BCEFDD446D8B}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="19200"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Pirate FINAL Choir Verse 1" ID="{932768F7-557C-4682-B491-F608D41050E5}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{4523B160-658C-4B52-A19C-B70C816D0F9D}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>100</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>19.2</XPos>
+																								<YPos>99.99998</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Pirate FINAL Choir Chorus" ID="{B28FA7AF-9969-49D5-BE20-EFE8E2691931}">
+																			<PropertyList>
+																				<Property Name="BeginTrimOffset" Type="Real64" Value="4.37783143070192E-12"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="19200"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="19200.0208333333"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Pirate FINAL Choir Chorus" ID="{4C19DE96-5D6F-480E-AF36-A523F14AF6B6}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{B74FA59B-E128-4346-90F5-2C49BA0FF6C0}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>19.2</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{FB75EFB8-DA4F-40AA-8919-29216E80C882}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>100</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>19.2</XPos>
+																								<YPos>100</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{C729588B-037B-4FE2-A597-8A93617666B8}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>-96.3</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>0.01615</XPos>
+																								<YPos>-0</YPos>
+																								<Flags>0</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>19.2</XPos>
 																								<YPos>0</YPos>
 																								<Flags>37</Flags>
 																							</Point>
@@ -418,6 +488,461 @@
 								</ObjectList>
 							</ObjectLists>
 						</MusicSegment>
+						<MusicSegment Name="Music Loop Verse 2" ID="{6201122B-2462-4ECB-B12F-CB9DA22AD438}" ShortID="429719016">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="42694.6922179796"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2941CDA7-9CCB-4D83-A88A-5EB99BADA2D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3828C3C-D19F-40CD-95EA-FA79A8A3AD31}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Crab Layer" ID="{157336EB-B138-402F-96F4-32456C6820D0}" ShortID="258812121">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{8118C1B9-A7E6-4601-8EA3-C3978F47E84A}" ShortID="830298033">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="crab_Distance" ID="{E441CA59-97A5-4780-8C68-AD88008427DD}" WorkUnitID="{AE80F3C8-7136-4337-BDE6-BE1563796D8C}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{DBF3972A-DAA4-4304-8B38-A6B847FC022E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>20</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>42.7731</XPos>
+																<YPos>0.00036</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>169.7318</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>200</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{2BE4678E-9657-4089-836D-36920641298D}" ShortID="238464248">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{980DEE4C-4260-4FA1-ACB9-25B056A7045A}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3828C3C-D19F-40CD-95EA-FA79A8A3AD31}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pirate Crab V1" ID="{13FEA64A-2F67-4C59-9380-963F0280EF74}">
+											<Language>SFX</Language>
+											<AudioFile>Pirate Crab V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="605514229"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0769BA9F-0FAA-4637-AD4E-957B8185FC5C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{E1B8BAEE-AD41-4F20-95CD-588D72BBE38A}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Pirate Crab V1" ID="{ECC44A0D-9E58-42F7-BF78-C9A5A39E192A}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="38400.0208333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Pirate Crab V1" ID="{13FEA64A-2F67-4C59-9380-963F0280EF74}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{BD108A77-E51E-4FDF-B894-EDC85BE58E02}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>38.4000208333333</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Instruments Layer" ID="{5FF14763-7676-48A8-B31B-B16FB5012D6A}" ShortID="594763188">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2941CDA7-9CCB-4D83-A88A-5EB99BADA2D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3828C3C-D19F-40CD-95EA-FA79A8A3AD31}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pirate FINAL Instrumental" ID="{810ED8A2-3D91-411C-9BDC-6C6285718FDA}">
+											<Language>SFX</Language>
+											<AudioFile>Pirate FINAL Instrumental.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="558488839"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{5E393A0F-95F1-4C66-83B9-48707741D3D6}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{E5968540-D8B6-4B75-8AB0-8B314B5A7938}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Pirate FINAL Instrumental" ID="{0C768F7D-2E47-4BB7-BDC1-60D6E19D0AE4}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="38400"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Pirate FINAL Instrumental" ID="{810ED8A2-3D91-411C-9BDC-6C6285718FDA}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Tavern  Layer 2" ID="{112410A9-866A-46EA-B258-C91903B7247B}" ShortID="555838919">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{41344CD4-302E-476C-AC19-754A27E70B53}" ShortID="1045483447">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="tavern_LPF" ID="{39D854C8-1980-4F34-95C4-AA5087811D2B}" WorkUnitID="{AE80F3C8-7136-4337-BDE6-BE1563796D8C}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{3C2DF04C-73C6-47AC-89E2-556F7725BC0E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-100</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>-36</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{27E7BCB3-0890-4FA7-A5AA-114FAC9F59C5}" ShortID="966741768">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="tavern_Distance" ID="{86BE7EE0-269D-461F-A724-9612F67E4608}" WorkUnitID="{AE80F3C8-7136-4337-BDE6-BE1563796D8C}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{E2FEAFA1-4A00-43B7-A632-4922B6F76D21}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>2874.3952</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>3000</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2941CDA7-9CCB-4D83-A88A-5EB99BADA2D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3828C3C-D19F-40CD-95EA-FA79A8A3AD31}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pirate FINAL Choir Verse 2" ID="{7047D350-CB95-4FD6-B8CD-820B54375FE2}">
+											<Language>SFX</Language>
+											<AudioFile>Pirate FINAL Choir Verse 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="786196367"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Pirate FINAL Choir Chorus" ID="{84517C19-A351-43CD-AC6F-B1B97346A86D}">
+											<Language>SFX</Language>
+											<AudioFile>Pirate FINAL Choir Chorus.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1023176675"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C73548E8-986A-44EA-A671-183A07C5E7F3}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{C490BD3F-CF0C-460B-AA7D-8313C9542B1D}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Pirate FINAL Choir Verse 2" ID="{285A43A7-1119-42D3-9D56-681849546F64}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="19200"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Pirate FINAL Choir Verse 2" ID="{7047D350-CB95-4FD6-B8CD-820B54375FE2}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{BC7F52D4-AABF-4F64-8539-99317DDF55A2}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>99.99996</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>19.2</XPos>
+																								<YPos>100</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Pirate FINAL Choir Chorus" ID="{EAE0DEA5-B39E-4F97-A3BE-12FAC5A0808E}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="19200"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="19200.0208333333"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Pirate FINAL Choir Chorus" ID="{84517C19-A351-43CD-AC6F-B1B97346A86D}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{E3D7A3FC-2241-4E4E-9EA0-0DB80057F624}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>100</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>19.2</XPos>
+																								<YPos>100</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{859E0D91-A0FC-4CDC-A0D0-77B9527A87D0}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>-96.3</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>0.0185</XPos>
+																								<YPos>-0</YPos>
+																								<Flags>0</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>19.2</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{95FD232D-0600-4793-8E7A-B273A3F014C5}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{60288958-69AC-445B-AA8F-759C03DD5F01}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="38400.0208333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{89FDF8ED-FA43-4E8A-BE2B-6BD6B2A5BF90}">
@@ -437,13 +962,20 @@
 						<MusicPlaylistItem Name="" ID="{1C9B1517-643E-4F9C-BD79-4E6A89044E4E}" ShortID="279060139">
 							<PropertyList>
 								<Property Name="LoopCount" Type="int16" Value="0"/>
+								<Property Name="PlayMode" Type="int16" Value="1"/>
 							</PropertyList>
 							<ChildrenList>
-								<MusicPlaylistItem Name="" ID="{E146E3D7-5C6C-4973-B434-FD80D8E99C77}" ShortID="226152930">
+								<MusicPlaylistItem Name="" ID="{0149F6A1-A776-41D9-BB93-A9BCD36EA883}" ShortID="506903912">
 									<PropertyList>
 										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 									</PropertyList>
-									<SegmentRef Name="Main Loop" ID="{3E002654-6649-4B42-9E50-2E4F52E303DF}"/>
+									<SegmentRef Name="Music Loop Verse 1" ID="{3E002654-6649-4B42-9E50-2E4F52E303DF}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{226F906B-E2D5-49FC-85E3-3505F5B227FE}" ShortID="97368821">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Music Loop Verse 2" ID="{6201122B-2462-4ECB-B12F-CB9DA22AD438}"/>
 								</MusicPlaylistItem>
 							</ChildrenList>
 						</MusicPlaylistItem>

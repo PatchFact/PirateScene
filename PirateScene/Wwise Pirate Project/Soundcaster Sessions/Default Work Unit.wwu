@@ -57,7 +57,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="crab_Distance" ID="{E441CA59-97A5-4780-8C68-AD88008427DD}"/>
-							<Value>0</Value>
+							<Value>200</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
