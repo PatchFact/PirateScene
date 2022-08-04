@@ -5,7 +5,6 @@ using UnityEngine;
 public class GameObjectDistance : MonoBehaviour
 {
     public bool inTavern = false;
-    public bool underwater = false;
     public bool inCave = false;
 
     Dictionary<string, string> checkFilterList = new Dictionary<string, string>();
@@ -49,16 +48,14 @@ public class GameObjectDistance : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        CheckInside(inTavern, other);
-        CheckInside(underwater, other);
-        CheckInside(inCave, other);
+        CheckInside(inTavern, other, false);
+        CheckInside(inCave, other, false);
     }
 
     private void OnTriggerExit(Collider other)
     {
-        CheckOutside(inTavern, other);
-        CheckOutside(underwater, other);
-        CheckOutside(inCave, other);
+        CheckInside(inTavern, other, true);
+        CheckInside(inCave, other, true);
     }
 
     float CalculateDistance(Vector3 playerPosition, GameObject target) 
@@ -67,29 +64,33 @@ public class GameObjectDistance : MonoBehaviour
         return diff.sqrMagnitude;
     }
 
-    void CheckInside(bool check, Collider other) 
+    void CheckInside(bool check, Collider other, bool on_off) 
     {
+        float rtcpVal = on_off ? 1f : 0f;
+
         if (checkFilterList.ContainsKey(other.tag)) 
         {
-            AkSoundEngine.SetRTPCValue(checkFilterList[other.tag], 0f, GameObject.Find("WwiseGlobal"));
-            check = true;
+            AkSoundEngine.SetRTPCValue(checkFilterList[other.tag], rtcpVal, GameObject.Find("WwiseGlobal"));
+            check = !on_off;
         }
         else 
         {
-            check = false;
+            check = on_off;
         }
     }
 
-    void CheckOutside(bool check, Collider other) 
-    {
-        if (checkFilterList.ContainsKey(other.tag)) 
-        {
-            AkSoundEngine.SetRTPCValue(checkFilterList[other.tag], 1f, GameObject.Find("WwiseGlobal"));
-            check = false;
-        }
-        else 
-        {
-            check = true;
-        }
-    }
+    //*Old Implementation
+
+    // void CheckOutside(bool check, Collider other) 
+    // {
+    //     if (checkFilterList.ContainsKey(other.tag)) 
+    //     {
+    //         AkSoundEngine.SetRTPCValue(checkFilterList[other.tag], 1f, GameObject.Find("WwiseGlobal"));
+    //         check = false;
+    //     }
+    //     else 
+    //     {
+    //         check = true;
+    //     }
+    // }
 }
