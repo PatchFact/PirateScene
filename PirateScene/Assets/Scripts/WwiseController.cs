@@ -1,25 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class GameObjectDistance : MonoBehaviour
+public class WwiseController : MonoBehaviour
 {
     public bool inTavern = false;
     public bool inCave = false;
+
+    UnityEvent underwater;
 
     Dictionary<string, string> checkFilterList = new Dictionary<string, string>();
     
     void Start()
     {
+        if (underwater == null) 
+        {
+            underwater = new UnityEvent();
+        }
+
+        underwater.AddListener(Ping);
+
         //add filter names corresponding to checks to dictionary
         checkFilterList.Add("tavern_check","tavern_LPF");
         checkFilterList.Add("water_check","water_LPF");
         checkFilterList.Add("cave_check","cave_LPF");
 
         //turn on filters at start of scene
-        AkSoundEngine.SetRTPCValue("tavern_LPF", 1f, GameObject.Find("WwiseGlobal"));   
-        AkSoundEngine.SetRTPCValue("water_LPF", 1f, GameObject.Find("WwiseGlobal"));  
-        AkSoundEngine.SetRTPCValue("cave_LPF", 1f, GameObject.Find("WwiseGlobal"));
+        foreach (var check in checkFilterList)
+        {
+            AkSoundEngine.SetRTPCValue(check.Value, 1f, GameObject.Find("WwiseGlobal"));
+        }
     }
 
     void Update()
@@ -34,28 +45,34 @@ public class GameObjectDistance : MonoBehaviour
       
         AkSoundEngine.SetRTPCValue("crab_distance", crabDistance, GameObject.Find("WwiseGlobal"));
 
-        if (!inTavern) { AkSoundEngine.SetRTPCValue("tavern_distance", tavernDistance, GameObject.Find("WwiseGlobal")); }
-
         if (inTavern)
         {
             AkSoundEngine.SetRTPCValue("tavern_distance", 0f, GameObject.Find("WwiseGlobal")); //set to loudest            
         }
+        else 
+        {
+            AkSoundEngine.SetRTPCValue("tavern_distance", tavernDistance, GameObject.Find("WwiseGlobal"));
+        }
 
         // Debug.LogWarning("Distance To Crab:" + crabDistance);
-
         // Debug.LogWarning("Distance To Tavern:" + tavernDistance);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        CheckInside(inTavern, other, false);
-        CheckInside(inCave, other, false);
+        if (other.tag == "water_check") 
+        {
+            underwater.Invoke();
+        }
+
+        SetLPF(inTavern, other, false);
+        SetLPF(inCave, other, false);
     }
 
     private void OnTriggerExit(Collider other)
     {
-        CheckInside(inTavern, other, true);
-        CheckInside(inCave, other, true);
+        SetLPF(inTavern, other, true);
+        SetLPF(inCave, other, true);
     }
 
     float CalculateDistance(Vector3 playerPosition, GameObject target) 
@@ -64,7 +81,7 @@ public class GameObjectDistance : MonoBehaviour
         return diff.sqrMagnitude;
     }
 
-    void CheckInside(bool check, Collider other, bool on_off) 
+    void SetLPF(bool check, Collider other, bool on_off) 
     {
         float rtcpVal = on_off ? 1f : 0f;
 
@@ -79,18 +96,9 @@ public class GameObjectDistance : MonoBehaviour
         }
     }
 
-    //*Old Implementation
-
-    // void CheckOutside(bool check, Collider other) 
-    // {
-    //     if (checkFilterList.ContainsKey(other.tag)) 
-    //     {
-    //         AkSoundEngine.SetRTPCValue(checkFilterList[other.tag], 1f, GameObject.Find("WwiseGlobal"));
-    //         check = false;
-    //     }
-    //     else 
-    //     {
-    //         check = true;
-    //     }
-    // }
+    void Ping() 
+    {
+        Debug.Log("Ping");
+        AkSoundEngine.PostEvent("isUnderwater", GameObject.Find("WwiseGlobal"));
+    }
 }
