@@ -52,7 +52,7 @@ public class WwiseController : MonoBehaviour
     {
         if (other.tag == "cave_check") 
         {
-            
+            Debug.Log("Entered cave");
         }
 
         if (other.tag == "water_check") 
@@ -68,6 +68,11 @@ public class WwiseController : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+        if (other.tag == "cave_check") 
+        {
+            Debug.Log("Left cave");
+        }
+
         if (other.tag == "water_check") 
         {
             underwater = false;
