@@ -14,7 +14,7 @@ public class WwiseController : MonoBehaviour
     {
         //add filter names corresponding to checks to dictionary
         checkFilterList.Add("tavern_check","tavern_LPF");
-        checkFilterList.Add("cave_check","cave_LPF");
+        // checkFilterList.Add("cave_check","cave_LPF"); // Didn't end up needing these lmao
 
         //turn on filters at start of scene
         foreach (var check in checkFilterList)
@@ -50,6 +50,11 @@ public class WwiseController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.tag == "cave_check") 
+        {
+            
+        }
+
         if (other.tag == "water_check") 
         {
             underwater = true;
@@ -58,7 +63,7 @@ public class WwiseController : MonoBehaviour
         }
 
         SetLPF(inTavern, other, false);
-        SetLPF(inCave, other, false);
+        // SetLPF(inCave, other, false);
     }
 
     private void OnTriggerExit(Collider other)
@@ -71,7 +76,7 @@ public class WwiseController : MonoBehaviour
         }
 
         SetLPF(inTavern, other, true);
-        SetLPF(inCave, other, true);
+        // SetLPF(inCave, other, true);
     }
 
     float CalculateDistance(Vector3 playerPosition, GameObject target) 
