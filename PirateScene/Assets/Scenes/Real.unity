@@ -12397,6 +12397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inTavern: 0
   inCave: 0
+  underwater: 0
 --- !u!1 &927088766
 GameObject:
   m_ObjectHideFlags: 0

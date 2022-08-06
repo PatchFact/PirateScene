@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class WwiseController : MonoBehaviour
 {
@@ -53,6 +52,7 @@ public class WwiseController : MonoBehaviour
     {
         if (other.tag == "water_check") 
         {
+            Debug.Log("underwater");
             AkSoundEngine.PostEvent("underwater", GameObject.Find("WwiseGlobal"));
         }
 
@@ -62,6 +62,12 @@ public class WwiseController : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+        if (other.tag == "water_check") 
+        {
+            Debug.Log("not underwater");
+            AkSoundEngine.PostEvent("above_water", GameObject.Find("WwiseGlobal"));
+        }
+
         SetLPF(inTavern, other, true);
         SetLPF(inCave, other, true);
     }
