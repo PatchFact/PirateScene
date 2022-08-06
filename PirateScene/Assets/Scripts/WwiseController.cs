@@ -52,8 +52,9 @@ public class WwiseController : MonoBehaviour
     {
         if (other.tag == "water_check") 
         {
+            underwater = true;
             Debug.Log("underwater");
-            AkSoundEngine.PostEvent("underwater", GameObject.Find("WwiseGlobal"));
+            AkSoundEngine.PostEvent("underwater", gameObject);
         }
 
         SetLPF(inTavern, other, false);
@@ -64,8 +65,9 @@ public class WwiseController : MonoBehaviour
     {
         if (other.tag == "water_check") 
         {
+            underwater = false;
             Debug.Log("not underwater");
-            AkSoundEngine.PostEvent("above_water", GameObject.Find("WwiseGlobal"));
+            AkSoundEngine.PostEvent("above_water", gameObject);
         }
 
         SetLPF(inTavern, other, true);
