@@ -50,6 +50,11 @@ namespace AK
         static const AkUniqueID MOTION_FACTORY_BUS = 985987111U;
     } // namespace BUSSES
 
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID CAVE_REVERB = 3177428469U;
+    } // namespace AUX_BUSSES
+
     namespace AUDIO_DEVICES
     {
         static const AkUniqueID DEFAULT_MOTION_DEVICE = 4230635974U;
