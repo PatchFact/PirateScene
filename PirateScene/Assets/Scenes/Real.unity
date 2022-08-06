@@ -12392,12 +12392,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 918016570}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b31fe3048ec06384aa88e8a4bc019898, type: 3}
+  m_Script: {fileID: 11500000, guid: 49588e1b17a5cdb4ca162168b0d491c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   inTavern: 0
-  underwater: 0
   inCave: 0
+  underwater: 0
 --- !u!1 &927088766
 GameObject:
   m_ObjectHideFlags: 0
