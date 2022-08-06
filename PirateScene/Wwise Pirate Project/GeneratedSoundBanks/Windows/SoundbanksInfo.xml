@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="693131054">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3586073914">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -19,7 +19,7 @@
 				<AuxBus Id="3177428469" Name="cave_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\cave_reverb"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3758105138" Language="SFX" Hash="3543103951">
+		<SoundBank Id="3758105138" Language="SFX" Hash="1774227824">
 			<ObjectPath>\SoundBanks\Default Work Unit\pirate_MX_banks</ObjectPath>
 			<ShortName>pirate_MX_banks</ShortName>
 			<Path>pirate_MX_banks.bnk</Path>
@@ -48,6 +48,9 @@
 							<Path>SFX/Pirate FINAL Choir Chorus_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3177428469" Name="cave_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\cave_reverb"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="452547817" Name="stop_All" ObjectPath="\Events\Default Work Unit\stop_All" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2213237662" Name="underwater" ObjectPath="\Events\Default Work Unit\underwater" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>

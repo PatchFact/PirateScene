@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,12 +21,12 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 10d8fe33c035aa4b8502a46453992214
-    ParentPath: Virtual Acoustics\Default Work Unit
+    ParentPath: Virtual Acoustics/Default Work Unit
     guid: 10d8fe33c035aa4b8502a46453992214
     GuidInternal: 
-    m_lastTime: -8585433341071128945
+    m_lastTime: -8585428502584775808
     List: []
-  - PhysicalPath: Virtual Acoustics\Factory Acoustic Textures.wwu
+  - PhysicalPath: Virtual Acoustics/Factory Acoustic Textures.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -34,10 +34,10 @@ MonoBehaviour:
     - ElementName: Factory Acoustic Textures
       ObjectType: 12
       guid: 6b663d46a83ca54f8b4a5fef12b883f6
-    ParentPath: Virtual Acoustics\Factory Acoustic Textures
+    ParentPath: Virtual Acoustics/Factory Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8585423557227541008
+    m_lastTime: -8585428502584775808
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -55,7 +55,7 @@ MonoBehaviour:
       - ElementName: Acoustic_Banner
         ObjectType: 15
         guid: f2532d2fccda8e408b8898b1b52a26d6
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Acoustic_Banner
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Acoustic_Banner
     - name: Anechoic
       guid: 32c20a8be202de4ebeacfdd1a900e3ed
       id: 1873957695
@@ -72,7 +72,7 @@ MonoBehaviour:
       - ElementName: Anechoic
         ObjectType: 15
         guid: 32c20a8be202de4ebeacfdd1a900e3ed
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Anechoic
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Anechoic
     - name: Brick
       guid: a9a586b004f2534ca838bdb18b18f6d6
       id: 504532776
@@ -89,7 +89,7 @@ MonoBehaviour:
       - ElementName: Brick
         ObjectType: 15
         guid: a9a586b004f2534ca838bdb18b18f6d6
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Brick
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Brick
     - name: Carpet
       guid: 8975223456dc604296c4b9f4b669092b
       id: 2412606308
@@ -106,7 +106,7 @@ MonoBehaviour:
       - ElementName: Carpet
         ObjectType: 15
         guid: 8975223456dc604296c4b9f4b669092b
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Carpet
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Carpet
     - name: Concrete
       guid: 001cf85c9628e04aaf7c3080bdaba682
       id: 841620460
@@ -123,7 +123,7 @@ MonoBehaviour:
       - ElementName: Concrete
         ObjectType: 15
         guid: 001cf85c9628e04aaf7c3080bdaba682
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Concrete
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Concrete
     - name: Cork_Tiles
       guid: 19c9d2305f92434189063dbb3c4ae5e2
       id: 3195498748
@@ -140,7 +140,7 @@ MonoBehaviour:
       - ElementName: Cork_Tiles
         ObjectType: 15
         guid: 19c9d2305f92434189063dbb3c4ae5e2
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Cork_Tiles
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Cork_Tiles
     - name: Curtains
       guid: 339ee6f8975c6849b508a1535f2d66e8
       id: 2928161104
@@ -157,7 +157,7 @@ MonoBehaviour:
       - ElementName: Curtains
         ObjectType: 15
         guid: 339ee6f8975c6849b508a1535f2d66e8
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Curtains
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Curtains
     - name: Drywall
       guid: f4e3a4680b4c8746a8b8a84db93dbc8f
       id: 3670307564
@@ -174,7 +174,7 @@ MonoBehaviour:
       - ElementName: Drywall
         ObjectType: 15
         guid: f4e3a4680b4c8746a8b8a84db93dbc8f
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Drywall
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Drywall
     - name: Fabric
       guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
       id: 1970351858
@@ -191,7 +191,7 @@ MonoBehaviour:
       - ElementName: Fabric
         ObjectType: 15
         guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Fabric
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Fabric
     - name: Mountain
       guid: 313793c51a00b44a98dd9b033a8c8eab
       id: 513139656
@@ -208,7 +208,7 @@ MonoBehaviour:
       - ElementName: Mountain
         ObjectType: 15
         guid: 313793c51a00b44a98dd9b033a8c8eab
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Mountain
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Mountain
     - name: Textures
       guid: a3121e7828e3df4a8bba5fb89c74031d
       id: 1276632493
@@ -222,7 +222,7 @@ MonoBehaviour:
       - ElementName: Textures
         ObjectType: 4
         guid: a3121e7828e3df4a8bba5fb89c74031d
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures
     - name: Tile
       guid: c4da82a82a13b747ba9db9907ba29cc0
       id: 2637588553
@@ -239,7 +239,7 @@ MonoBehaviour:
       - ElementName: Tile
         ObjectType: 15
         guid: c4da82a82a13b747ba9db9907ba29cc0
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Tile
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Tile
     - name: Wood
       guid: 96bcff1fe76f9e48ba6c7c14a71391ae
       id: 2058049674
@@ -256,7 +256,7 @@ MonoBehaviour:
       - ElementName: Wood
         ObjectType: 15
         guid: 96bcff1fe76f9e48ba6c7c14a71391ae
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Wood
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Wood
     - name: Wood_Bright
       guid: e5d1857ba2c1634e9a13cec54b641adc
       id: 4262522749
@@ -273,7 +273,7 @@ MonoBehaviour:
       - ElementName: Wood_Bright
         ObjectType: 15
         guid: e5d1857ba2c1634e9a13cec54b641adc
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Bright
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Wood_Bright
     - name: Wood_Deep
       guid: 8e474652dac50c4ea0dec98d1479529a
       id: 1755085759
@@ -290,9 +290,9 @@ MonoBehaviour:
       - ElementName: Wood_Deep
         ObjectType: 15
         guid: 8e474652dac50c4ea0dec98d1479529a
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Deep
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Wood_Deep
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -300,10 +300,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 3c8c82e39fd1cd4095eafa79a8a3ad31
-    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 3c8c82e39fd1cd4095eafa79a8a3ad31
     GuidInternal: 
-    m_lastTime: -8585422444064775808
+    m_lastTime: -8585417861334775808
     List:
     - name: cave_reverb
       guid: 86b3c33b4ea98d4e8e1995913faaf4ef
@@ -335,7 +335,7 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
     - name: Motion Factory Bus
       guid: c6b9f92af16ee946b5f2e30c9e602c74
       id: 985987111
@@ -349,9 +349,9 @@ MonoBehaviour:
       - ElementName: Motion Factory Bus
         ObjectType: 2
         guid: c6b9f92af16ee946b5f2e30c9e602c74
-      Path: Master-Mixer Hierarchy\Default Work Unit\Motion Factory Bus
+      Path: Master-Mixer Hierarchy/Default Work Unit/Motion Factory Bus
   BankWwu:
-  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -359,10 +359,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 324cee4872a6d642ad75c3242fea3c36
-    ParentPath: SoundBanks\Default Work Unit
+    ParentPath: SoundBanks/Default Work Unit
     guid: 324cee4872a6d642ad75c3242fea3c36
     GuidInternal: 
-    m_lastTime: -8585417886888291257
+    m_lastTime: -8585422442914775808
     List:
     - name: pirate_MX_banks
       guid: cd4a4c5ca60c844b8f3314317f08fea1
@@ -377,9 +377,9 @@ MonoBehaviour:
       - ElementName: pirate_MX_banks
         ObjectType: 7
         guid: cd4a4c5ca60c844b8f3314317f08fea1
-      Path: SoundBanks\Default Work Unit\pirate_MX_banks
+      Path: SoundBanks/Default Work Unit/pirate_MX_banks
   EventWwu:
-  - PhysicalPath: Events\Default Work Unit.wwu
+  - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -387,10 +387,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: d56a5170aaa5be41a3d312beb1750f80
-    ParentPath: Events\Default Work Unit
+    ParentPath: Events/Default Work Unit
     guid: d56a5170aaa5be41a3d312beb1750f80
     GuidInternal: 
-    m_lastTime: -8585417878171026938
+    m_lastTime: -8585417880904775808
     List:
     - name: above_water
       guid: f8bb5e186ef81243b5d7fa8cb4a38e4d
@@ -405,7 +405,7 @@ MonoBehaviour:
       - ElementName: above_water
         ObjectType: 3
         guid: f8bb5e186ef81243b5d7fa8cb4a38e4d
-      Path: Events\Default Work Unit\above_water
+      Path: Events/Default Work Unit/above_water
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -422,7 +422,7 @@ MonoBehaviour:
       - ElementName: start_MX
         ObjectType: 3
         guid: 27260fd1ea02964f9ac1739b65f94874
-      Path: Events\Default Work Unit\start_MX
+      Path: Events/Default Work Unit/start_MX
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -439,7 +439,7 @@ MonoBehaviour:
       - ElementName: stop_All
         ObjectType: 3
         guid: 34f932ad445c24438874a5ae946ef329
-      Path: Events\Default Work Unit\stop_All
+      Path: Events/Default Work Unit/stop_All
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -456,12 +456,12 @@ MonoBehaviour:
       - ElementName: underwater
         ObjectType: 3
         guid: aec7e249d8473a419cdbf1aba0ac88de
-      Path: Events\Default Work Unit\underwater
+      Path: Events/Default Work Unit/underwater
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
   RtpcWwu:
-  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -469,10 +469,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: c8f380ae36713743bde6be1563796d8c
-    ParentPath: Game Parameters\Default Work Unit
+    ParentPath: Game Parameters/Default Work Unit
     guid: c8f380ae36713743bde6be1563796d8c
     GuidInternal: 
-    m_lastTime: -8585417886893091251
+    m_lastTime: -8585422444064775808
     List:
     - name: crab_Distance
       guid: 59ca41e4a59780478c68ad88008427dd
@@ -487,7 +487,7 @@ MonoBehaviour:
       - ElementName: crab_Distance
         ObjectType: 13
         guid: 59ca41e4a59780478c68ad88008427dd
-      Path: Game Parameters\Default Work Unit\crab_Distance
+      Path: Game Parameters/Default Work Unit/crab_Distance
     - name: tavern_Distance
       guid: e07ebe869d261f46a7249612f67e4608
       id: 3179159051
@@ -501,7 +501,7 @@ MonoBehaviour:
       - ElementName: tavern_Distance
         ObjectType: 13
         guid: e07ebe869d261f46a7249612f67e4608
-      Path: Game Parameters\Default Work Unit\tavern_Distance
+      Path: Game Parameters/Default Work Unit/tavern_Distance
     - name: tavern_LPF
       guid: c854d8398019344f95c4aa5087811d2b
       id: 2385089216
@@ -515,8 +515,8 @@ MonoBehaviour:
       - ElementName: tavern_LPF
         ObjectType: 13
         guid: c854d8398019344f95c4aa5087811d2b
-      Path: Game Parameters\Default Work Unit\tavern_LPF
-  - PhysicalPath: Game Parameters\Factory Motion.wwu
+      Path: Game Parameters/Default Work Unit/tavern_LPF
+  - PhysicalPath: Game Parameters/Factory Motion.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -524,10 +524,10 @@ MonoBehaviour:
     - ElementName: Factory Motion
       ObjectType: 12
       guid: 225213d7dbd1d042adc0930743567776
-    ParentPath: Game Parameters\Factory Motion
+    ParentPath: Game Parameters/Factory Motion
     guid: 225213d7dbd1d042adc0930743567776
     GuidInternal: 
-    m_lastTime: -8585423557236226278
+    m_lastTime: -8585428502584775808
     List:
     - name: Playback_Rate
       guid: e37e38283ac11643b9c3db5c521624af
@@ -542,7 +542,7 @@ MonoBehaviour:
       - ElementName: Playback_Rate
         ObjectType: 13
         guid: e37e38283ac11643b9c3db5c521624af
-      Path: Game Parameters\Factory Motion\Playback_Rate
+      Path: Game Parameters/Factory Motion/Playback_Rate
     - name: RPM
       guid: 05aa129177f5fd449f4e4424158129e6
       id: 796049864
@@ -556,8 +556,8 @@ MonoBehaviour:
       - ElementName: RPM
         ObjectType: 13
         guid: 05aa129177f5fd449f4e4424158129e6
-      Path: Game Parameters\Factory Motion\RPM
-  - PhysicalPath: Game Parameters\Factory SoundSeed Air Game Syncs.wwu
+      Path: Game Parameters/Factory Motion/RPM
+  - PhysicalPath: Game Parameters/Factory SoundSeed Air Game Syncs.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -565,10 +565,10 @@ MonoBehaviour:
     - ElementName: Factory SoundSeed Air Game Syncs
       ObjectType: 12
       guid: 5577163b42fb8b4598bf96f557afb3b9
-    ParentPath: Game Parameters\Factory SoundSeed Air Game Syncs
+    ParentPath: Game Parameters/Factory SoundSeed Air Game Syncs
     guid: 5577163b42fb8b4598bf96f557afb3b9
     GuidInternal: 
-    m_lastTime: -8585423557236206295
+    m_lastTime: -8585428502584775808
     List:
     - name: SS_Air_Fear
       guid: 59062ef746431c4ea1b1dab46a05101e
@@ -583,7 +583,7 @@ MonoBehaviour:
       - ElementName: SS_Air_Fear
         ObjectType: 13
         guid: 59062ef746431c4ea1b1dab46a05101e
-      Path: Game Parameters\Factory SoundSeed Air Game Syncs\SS_Air_Fear
+      Path: Game Parameters/Factory SoundSeed Air Game Syncs/SS_Air_Fear
     - name: SS_Air_Freefall
       guid: 37fe2d2f9e4f944d83d853cca39781ad
       id: 3002758120
@@ -597,7 +597,7 @@ MonoBehaviour:
       - ElementName: SS_Air_Freefall
         ObjectType: 13
         guid: 37fe2d2f9e4f944d83d853cca39781ad
-      Path: Game Parameters\Factory SoundSeed Air Game Syncs\SS_Air_Freefall
+      Path: Game Parameters/Factory SoundSeed Air Game Syncs/SS_Air_Freefall
     - name: SS_Air_Fury
       guid: dc79aea23acaba4696529986c322a87b
       id: 1029930033
@@ -611,7 +611,7 @@ MonoBehaviour:
       - ElementName: SS_Air_Fury
         ObjectType: 13
         guid: dc79aea23acaba4696529986c322a87b
-      Path: Game Parameters\Factory SoundSeed Air Game Syncs\SS_Air_Fury
+      Path: Game Parameters/Factory SoundSeed Air Game Syncs/SS_Air_Fury
     - name: SS_Air_Month
       guid: 45b4e209a3c47f44b3ca818a1d925ef7
       id: 2648548617
@@ -625,7 +625,7 @@ MonoBehaviour:
       - ElementName: SS_Air_Month
         ObjectType: 13
         guid: 45b4e209a3c47f44b3ca818a1d925ef7
-      Path: Game Parameters\Factory SoundSeed Air Game Syncs\SS_Air_Month
+      Path: Game Parameters/Factory SoundSeed Air Game Syncs/SS_Air_Month
     - name: SS_Air_Presence
       guid: 1a81b7e32f7b0f49b44f5fe51b468041
       id: 3847924954
@@ -639,7 +639,7 @@ MonoBehaviour:
       - ElementName: SS_Air_Presence
         ObjectType: 13
         guid: 1a81b7e32f7b0f49b44f5fe51b468041
-      Path: Game Parameters\Factory SoundSeed Air Game Syncs\SS_Air_Presence
+      Path: Game Parameters/Factory SoundSeed Air Game Syncs/SS_Air_Presence
     - name: SS_Air_RPM
       guid: ab9048a3d5b92645a64d5290c43ef2dc
       id: 822163944
@@ -653,7 +653,7 @@ MonoBehaviour:
       - ElementName: SS_Air_RPM
         ObjectType: 13
         guid: ab9048a3d5b92645a64d5290c43ef2dc
-      Path: Game Parameters\Factory SoundSeed Air Game Syncs\SS_Air_RPM
+      Path: Game Parameters/Factory SoundSeed Air Game Syncs/SS_Air_RPM
     - name: SS_Air_Size
       guid: efeb291393a12e47a38c64668b494879
       id: 3074696722
@@ -667,7 +667,7 @@ MonoBehaviour:
       - ElementName: SS_Air_Size
         ObjectType: 13
         guid: efeb291393a12e47a38c64668b494879
-      Path: Game Parameters\Factory SoundSeed Air Game Syncs\SS_Air_Size
+      Path: Game Parameters/Factory SoundSeed Air Game Syncs/SS_Air_Size
     - name: SS_Air_Storm
       guid: db8c3fe9d1063747acaf7cd44bbed783
       id: 3715662592
@@ -681,7 +681,7 @@ MonoBehaviour:
       - ElementName: SS_Air_Storm
         ObjectType: 13
         guid: db8c3fe9d1063747acaf7cd44bbed783
-      Path: Game Parameters\Factory SoundSeed Air Game Syncs\SS_Air_Storm
+      Path: Game Parameters/Factory SoundSeed Air Game Syncs/SS_Air_Storm
     - name: SS_Air_TimeOfDay
       guid: 2ca76f537e8c8b4cae03ef34fdadc314
       id: 3203397129
@@ -695,7 +695,7 @@ MonoBehaviour:
       - ElementName: SS_Air_TimeOfDay
         ObjectType: 13
         guid: 2ca76f537e8c8b4cae03ef34fdadc314
-      Path: Game Parameters\Factory SoundSeed Air Game Syncs\SS_Air_TimeOfDay
+      Path: Game Parameters/Factory SoundSeed Air Game Syncs/SS_Air_TimeOfDay
     - name: SS_Air_Turbulence
       guid: 197ba8edaa73a0409f192073606db710
       id: 4160247818
@@ -709,9 +709,9 @@ MonoBehaviour:
       - ElementName: SS_Air_Turbulence
         ObjectType: 13
         guid: 197ba8edaa73a0409f192073606db710
-      Path: Game Parameters\Factory SoundSeed Air Game Syncs\SS_Air_Turbulence
+      Path: Game Parameters/Factory SoundSeed Air Game Syncs/SS_Air_Turbulence
   StateWwu:
-  - PhysicalPath: States\Default Work Unit.wwu
+  - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -719,13 +719,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 389c17f561973d43bb0172675a2da0a2
-    ParentPath: States\Default Work Unit
+    ParentPath: States/Default Work Unit
     guid: 389c17f561973d43bb0172675a2da0a2
     GuidInternal: 
-    m_lastTime: -8585433341071168961
+    m_lastTime: -8585428502594775808
     List: []
   SwitchWwu:
-  - PhysicalPath: Switches\Default Work Unit.wwu
+  - PhysicalPath: Switches/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -733,13 +733,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: dbd9721389e6da4e8f5cc5984451a19b
-    ParentPath: Switches\Default Work Unit
+    ParentPath: Switches/Default Work Unit
     guid: dbd9721389e6da4e8f5cc5984451a19b
     GuidInternal: 
-    m_lastTime: -8585433341071148945
+    m_lastTime: -8585428502594775808
     List: []
   TriggerWwu:
-  - PhysicalPath: Triggers\Default Work Unit.wwu
+  - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -747,10 +747,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 6926d64522c75a48a7d40c8cd039d65e
-    ParentPath: Triggers\Default Work Unit
+    ParentPath: Triggers/Default Work Unit
     guid: 6926d64522c75a48a7d40c8cd039d65e
     GuidInternal: 
-    m_lastTime: -8585433341071138940
+    m_lastTime: -8585428502584775808
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 02000000030000000400000005000000
