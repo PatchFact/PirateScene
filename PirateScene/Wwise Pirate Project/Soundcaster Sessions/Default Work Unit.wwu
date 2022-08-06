@@ -81,7 +81,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="tavern_LPF" ID="{39D854C8-1980-4F34-95C4-AA5087811D2B}"/>
-							<Value>1.09926048927027E-317</Value>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

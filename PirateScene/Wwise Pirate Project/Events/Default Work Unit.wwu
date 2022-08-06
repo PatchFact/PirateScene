@@ -38,7 +38,7 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="26"/>
 								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-								<Property Name="Lowpass" Type="int16" Value="-40"/>
+								<Property Name="Lowpass" Type="int16" Value="50"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
