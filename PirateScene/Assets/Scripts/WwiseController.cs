@@ -7,23 +7,14 @@ public class WwiseController : MonoBehaviour
 {
     public bool inTavern = false;
     public bool inCave = false;
-
-    UnityEvent underwaterEvent;
+    public bool underwater = false;
 
     Dictionary<string, string> checkFilterList = new Dictionary<string, string>();
     
     void Start()
     {
-        if (underwaterEvent == null) 
-        {
-            underwaterEvent = new UnityEvent();
-        }
-
-        underwaterEvent.AddListener(Ping);
-
         //add filter names corresponding to checks to dictionary
         checkFilterList.Add("tavern_check","tavern_LPF");
-        checkFilterList.Add("water_check","water_LPF");
         checkFilterList.Add("cave_check","cave_LPF");
 
         //turn on filters at start of scene
@@ -62,7 +53,7 @@ public class WwiseController : MonoBehaviour
     {
         if (other.tag == "water_check") 
         {
-            underwaterEvent.Invoke();
+            AkSoundEngine.PostEvent("underwater", GameObject.Find("WwiseGlobal"));
         }
 
         SetLPF(inTavern, other, false);
@@ -94,11 +85,5 @@ public class WwiseController : MonoBehaviour
         {
             check = on_off;
         }
-    }
-
-    void Ping() 
-    {
-        Debug.Log("Ping");
-        AkSoundEngine.PostEvent("underwater", GameObject.Find("WwiseGlobal"));
     }
 }
