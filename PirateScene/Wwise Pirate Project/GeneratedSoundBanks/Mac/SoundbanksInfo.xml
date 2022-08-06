@@ -11,16 +11,17 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3384873531">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3032586277">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3758105138" Language="SFX" Hash="4262896773">
+		<SoundBank Id="3758105138" Language="SFX" Hash="1479401089">
 			<ObjectPath>\SoundBanks\Default Work Unit\pirate_MX_banks</ObjectPath>
 			<ShortName>pirate_MX_banks</ShortName>
 			<Path>pirate_MX_banks.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2804295684" Name="above_water" ObjectPath="\Events\Default Work Unit\above_water" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="441724113" Name="start_MX" ObjectPath="\Events\Default Work Unit\start_MX" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="558488839" Language="SFX">
@@ -46,6 +47,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="452547817" Name="stop_All" ObjectPath="\Events\Default Work Unit\stop_All" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2213237662" Name="underwater" ObjectPath="\Events\Default Work Unit\underwater" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="2385089216" Name="tavern_LPF" ObjectPath="\Game Parameters\Default Work Unit\tavern_LPF"/>

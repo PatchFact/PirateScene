@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="pirate_MX_banks" ID="{5C4C4ACD-0CA6-4B84-8F33-14317F08FEA1}">
 					<ObjectInclusionList>
+						<ObjectRef Name="underwater" ID="{49E2C7AE-47D8-413A-9CDB-F1ABA0AC88DE}" WorkUnitID="{70516AD5-A5AA-41BE-A3D3-12BEB1750F80}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="above_water" ID="{185EBBF8-F86E-4312-B5D7-FA8CB4A38E4D}" WorkUnitID="{70516AD5-A5AA-41BE-A3D3-12BEB1750F80}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="stop_All" ID="{AD32F934-5C44-4324-8874-A5AE946EF329}" WorkUnitID="{70516AD5-A5AA-41BE-A3D3-12BEB1750F80}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="start_MX" ID="{D10F2627-02EA-4F96-9AC1-739B65F94874}" WorkUnitID="{70516AD5-A5AA-41BE-A3D3-12BEB1750F80}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

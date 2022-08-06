@@ -13,8 +13,10 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID ABOVE_WATER = 2804295684U;
         static const AkUniqueID START_MX = 441724113U;
         static const AkUniqueID STOP_ALL = 452547817U;
+        static const AkUniqueID UNDERWATER = 2213237662U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
@@ -34,7 +36,6 @@ namespace AK
         static const AkUniqueID SS_AIR_TURBULENCE = 4160247818U;
         static const AkUniqueID TAVERN_DISTANCE = 3179159051U;
         static const AkUniqueID TAVERN_LPF = 2385089216U;
-        static const AkUniqueID WATER_LPF = 2879737297U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

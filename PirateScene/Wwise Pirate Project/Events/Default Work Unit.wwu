@@ -32,6 +32,40 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="underwater" ID="{49E2C7AE-47D8-413A-9CDB-F1ABA0AC88DE}">
+					<ChildrenList>
+						<Action Name="" ID="{1F62BA8A-8348-4178-8DBC-769E6F16E04E}" ShortID="35541986">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="26"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Lowpass" Type="int16" Value="-40"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pirate Scene" ID="{24AD6127-FA67-4911-A260-48DF596A1553}" WorkUnitID="{6B66170F-5A46-42E1-A255-0FBB4FD7EB43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="above_water" ID="{185EBBF8-F86E-4312-B5D7-FA8CB4A38E4D}">
+					<ChildrenList>
+						<Action Name="" ID="{48F01F90-317F-4779-B134-815B23EC7B2C}" ShortID="228719172">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="26"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Lowpass" Type="int16" Value="-100"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pirate Scene" ID="{24AD6127-FA67-4911-A260-48DF596A1553}" WorkUnitID="{6B66170F-5A46-42E1-A255-0FBB4FD7EB43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

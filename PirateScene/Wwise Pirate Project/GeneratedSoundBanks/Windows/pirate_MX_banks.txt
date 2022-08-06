@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
 	441724113	start_MX			\Default Work Unit\start_MX	
 	452547817	stop_All			\Default Work Unit\stop_All	
+	2213237662	underwater			\Default Work Unit\underwater	
+	2804295684	above_water			\Default Work Unit\above_water	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2385089216	tavern_LPF			\Default Work Unit\tavern_LPF	

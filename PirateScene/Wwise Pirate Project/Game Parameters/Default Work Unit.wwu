@@ -17,14 +17,11 @@
 				</GameParameter>
 				<GameParameter Name="tavern_LPF" ID="{39D854C8-1980-4F34-95C4-AA5087811D2B}">
 					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="5"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="2"/>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="1"/>
-					</PropertyList>
-				</GameParameter>
-				<GameParameter Name="water_LPF" ID="{A73FCFC8-27B5-4572-BA6E-BA0D8EBDFF69}">
-					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="1"/>
-						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

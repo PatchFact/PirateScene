@@ -4,6 +4,15 @@
 		<WorkUnit Name="Default Work Unit" ID="{6B66170F-5A46-42E1-A255-0FBB4FD7EB43}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicPlaylistContainer Name="Pirate Scene" ID="{24AD6127-FA67-4911-A260-48DF596A1553}" ShortID="511477830">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{55664119-75F7-4EBC-A667-29B8CFC713AA}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2941CDA7-9CCB-4D83-A88A-5EB99BADA2D8}"/>
@@ -444,7 +453,7 @@
 																							</Point>
 																							<Point>
 																								<XPos>0.01615</XPos>
-																								<YPos>-0</YPos>
+																								<YPos>0</YPos>
 																								<Flags>0</Flags>
 																							</Point>
 																							<Point>
@@ -899,7 +908,7 @@
 																							</Point>
 																							<Point>
 																								<XPos>0.0185</XPos>
-																								<YPos>-0</YPos>
+																								<YPos>0</YPos>
 																								<Flags>0</Flags>
 																							</Point>
 																							<Point>

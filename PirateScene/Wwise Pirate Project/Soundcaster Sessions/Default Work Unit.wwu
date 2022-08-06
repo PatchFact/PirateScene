@@ -13,6 +13,14 @@
 							<ObjectRef Name="stop_All" ID="{AD32F934-5C44-4324-8874-A5AE946EF329}" WorkUnitID="{70516AD5-A5AA-41BE-A3D3-12BEB1750F80}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="underwater" ID="{49E2C7AE-47D8-413A-9CDB-F1ABA0AC88DE}" WorkUnitID="{70516AD5-A5AA-41BE-A3D3-12BEB1750F80}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="above_water" ID="{185EBBF8-F86E-4312-B5D7-FA8CB4A38E4D}" WorkUnitID="{70516AD5-A5AA-41BE-A3D3-12BEB1750F80}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -34,10 +42,6 @@
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
 							<Value>50</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="water_LPF" ID="{A73FCFC8-27B5-4572-BA6E-BA0D8EBDFF69}"/>
-							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="tavern_Distance" ID="{86BE7EE0-269D-461F-A724-9612F67E4608}"/>
@@ -77,7 +81,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="tavern_LPF" ID="{39D854C8-1980-4F34-95C4-AA5087811D2B}"/>
-							<Value>0</Value>
+							<Value>1.09926048927027E-317</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
