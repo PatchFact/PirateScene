@@ -11,6 +11,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AuxBus Name="cave_reverb" ID="{3BC3B386-A94E-4E8D-8E19-95913FAAF4EF}">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<ObjectRef Name="Hall_Large" ID="{6D154498-FF6D-4823-96FC-56841B70E079}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
